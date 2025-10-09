@@ -1,0 +1,141 @@
+Start
+ │
+ ▼
+Foundations
+ │
+ ├─ Easy
+ │      ├─ What is the Internet?
+ │      ├─ How websites work (client-server model)
+ │      ├─ HTTP basics (GET/POST, status codes)
+ │      ├─ What is a browser & rendering?
+ │
+ ├─ Medium
+ │      ├─ DOM basics
+ │      ├─ Frontend vs Backend
+ │      ├─ Intro to developer tools
+ │
+ └─ Hard
+        ├─ Basics of deployment (how a site goes live)
+        ├─ Security concepts (HTTPS, CORS basics)
+        └─ Version control overview
+ │
+ └─ Project: Write a blog-style document 
+            → “How the Internet Works (for beginners)”
+ │
+ ▼
+HTML
+ │
+ ├─ Structure of HTML (doctype, html, head, body)
+ ├─ Text formatting, headings, paragraphs, lists
+ ├─ Links, images, tables
+ ├─ Forms & input elements
+ ├─ Semantic HTML (article, section, nav, footer)
+ └─ Multimedia (audio, video, iframe)
+ │
+ └─ Project: Create a simple **resume webpage** (only HTML)
+ │
+ ▼
+CSS
+ │
+ ├─ Selectors & combinators
+ ├─ Colors, fonts, text styling
+ ├─ Box model (margin, padding, border)
+ ├─ Flexbox
+ ├─ Grid
+ ├─ Positioning (relative, absolute, fixed, sticky)
+ ├─ Transitions & animations
+ └─ Responsive design (media queries, units)
+ │
+ └─ Project: Build a **portfolio website** (HTML + CSS, responsive)
+ │
+ ▼
+Bash Basics
+ │
+ ├─ Navigation → cd, pwd
+ ├─ Listing files → ls, ls -a, ls -l
+ ├─ Creating files & dirs → mkdir, touch
+ ├─ Editing → vi basics
+ └─ File viewing → cat, less
+ │
+ └─ Project: Create a **notes folder system** 
+            (practice cd, mkdir, touch, vi, cat)
+ │
+ ▼
+Bash Medium
+ │
+ ├─ grep (searching text)
+ ├─ Piping (|) & redirection (>, >>, <)
+ ├─ reverse search (Ctrl+R)
+ ├─ head & tail
+ ├─ chmod, rm, mv, cp
+ └─ Environment variables & PATH
+ │
+ └─ Project: Make a **log search tool** 
+            (use grep + pipes on a text file)
+ │
+ ▼
+Git & GitHub
+ │
+ ├─ git init, git clone
+ ├─ git add, git commit
+ ├─ git status, git log
+ ├─ git branch, git checkout, git merge
+ ├─ git remote, git push, git pull
+ ├─ resolving merge conflicts
+ └─ GitHub basics (repo, issues, pull requests)
+ │
+ └─ Project: Create a repo → Push your **portfolio website**
+ │
+ ▼
+JavaScript Intro
+ │
+ ├─ What is JS? Role in web dev
+ ├─ Variables (var, let, const)
+ ├─ Data types & operators
+ ├─ Functions
+ ├─ Single-threaded nature of JS
+ ├─ Scope, hoisting, closures
+ └─ DOM manipulation
+ │
+ └─ Project: Build a **to-do list app** (basic DOM interaction)
+ │
+ ▼
+Async JavaScript
+ │
+ ├─ setTimeout, setInterval
+ ├─ Event loop & callback queue
+ ├─ Callbacks & callback hell
+ └─ Introduction to Promises
+ │
+ └─ Project: Create a **digital clock + timer**
+ │
+ ▼
+Promises in Depth
+ │
+ ├─ Creating promises
+ ├─ then(), catch(), finally()
+ ├─ Promise.all, Promise.race, Promise.allSettled
+ └─ async/await
+ │
+ └─ Project: Build a **weather app**
+            (fetch weather data using API)
+ │
+ ▼
+Common JS APIs
+ │
+ ├─ Array methods → map, filter, reduce, forEach
+ ├─ Object methods → Object.keys, Object.values, Object.entries
+ └─ JSON.parse & JSON.stringify
+ │
+ └─ Project: Create a **student grades analyzer**
+            (take JSON data, apply map/filter/reduce)
+ │
+ ▼
+Final Capstone
+ │
+ └─ Combine everything:
+       → A **Personal Portfolio Website with Projects**
+       (Deployed on GitHub Pages)
+ │
+ ▼
+End → You’re ready to move into **React or Node.js**

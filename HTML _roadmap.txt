@@ -1,0 +1,99 @@
+Start
+  │
+  ▼
+Introduction to HTML
+  │
+  ├─> What is HTML?
+  ├─> Structure of an HTML Document
+  │       ├─ <!DOCTYPE html>
+  │       ├─ <html>
+  │       │    ├─ <head>
+  │       │    │    ├─ <title>
+  │       │    │    ├─ <meta>
+  │       │    │    ├─ <link> (CSS, favicon)
+  │       │    │    └─ <script>
+  │       │    └─ <body>
+  │       │         └─ Visible Content
+  │
+  ▼
+Basic HTML Tags
+  │
+  ├─ Headings (<h1> to <h6>)
+  ├─ Paragraphs (<p>)
+  ├─ Line Breaks (<br>) & Horizontal Rule (<hr>)
+  ├─ Text Formatting (<b>, <i>, <u>, <mark>, <small>, <strong>, <em>)
+  ├─ Comments (<!-- -->)
+  │
+  ▼
+Links & Media
+  │
+  ├─ Hyperlinks (<a>)
+  ├─ Images (<img>)
+  ├─ Audio (<audio>)
+  ├─ Video (<video>)
+  └─ Iframes (<iframe>)
+  │
+  ▼
+Lists
+  │
+  ├─ Ordered List (<ol>)
+  ├─ Unordered List (<ul>)
+  └─ Description List (<dl>)
+  │
+  ▼
+Tables
+  │
+  ├─ <table>
+  ├─ <tr>, <td>, <th>
+  ├─ <thead>, <tbody>, <tfoot>
+  └─ Attributes (border, colspan, rowspan)
+  │
+  ▼
+Forms & Input
+  │
+  ├─ <form>
+  │    ├─ <input> (text, password, email, checkbox, radio, etc.)
+  │    ├─ <textarea>
+  │    ├─ <select>, <option>
+  │    ├─ <button>
+  │    ├─ <label>
+  │    └─ Attributes (required, placeholder, value, name)
+  │
+  ▼
+Semantic HTML
+  │
+  ├─ <header>, <footer>
+  ├─ <nav>, <main>, <section>, <article>, <aside>
+  ├─ <figure>, <figcaption>
+  └─ Importance for SEO & Accessibility
+  │
+  ▼
+HTML Attributes & Global Concepts
+  │
+  ├─ id, class
+  ├─ style
+  ├─ title, alt
+  ├─ lang, dir
+  └─ data-* attributes
+  │
+  ▼
+HTML5 Features
+  │
+  ├─ New Input Types (date, color, range, etc.)
+  ├─ <canvas> (drawing)
+  ├─ <svg> (graphics)
+  ├─ <progress>, <meter>
+  ├─ <details>, <summary>
+  └─ Local Storage, Geolocation (via JS API)
+  │
+  ▼
+Best Practices
+  │
+  ├─ Proper Nesting
+  ├─ Accessibility (alt text, labels)
+  ├─ SEO-friendly structure
+  ├─ Responsive design basics
+  └─ Validation (W3C Validator)
+  │
+  ▼
+End → You’re ready to combine HTML with CSS & JS

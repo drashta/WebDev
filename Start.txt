@@ -1,0 +1,74 @@
+Start
+  │
+  ▼
+Git Bash setup & basics
+  │
+  ├─> ls -a → view all files (hidden & regular)
+  ├─> touch → create file
+  ├─> echo > file.txt → write to file
+  ├─> cat file.txt → read file
+  ├─> cp → copy file
+  ├─> mv → rename file
+  ├─> rm → delete file
+  └─> ls → list files
+  │
+  ▼
+Pipes & Redirection
+  │
+  ├─> echo "text" >> file.txt → append
+  ├─> cat file.txt | grep "word" → search
+  └─> > overwrite file
+  │
+  ▼
+Variables
+  │
+  ├─> name="Nishant" → assign variable
+  ├─> echo $name → print variable
+  └─> greeting="Hello $name" → variable in string
+  │
+  ▼
+Simple Bash Script
+  │
+  ├─> nano hello.sh → create script
+  ├─> #!/bin/bash → script header
+  ├─> echo "Hello World" → script content
+  ├─> chmod +x hello.sh → make executable
+  └─> ./hello.sh → run script
+  │
+  ▼
+Notes Organizer Project
+  │
+  ├─> Create folder ~/my_notes → store notes
+  ├─> nano notes.sh → write script
+  │      ├─ Menu (1–6)
+  │      ├─ Case block for choices
+  │      └─ Loop while true → repeat menu
+  ├─> chmod +x notes.sh → make executable
+  └─> ./notes.sh → run program
+          │
+          ▼
+  Menu Flow
+          │
+          ├─ 1: Create a note
+          │       ├─ Enter note name
+          │       ├─ Enter multi-line content
+          │       └─ Type 'END' to finish
+          ├─ 2: List notes → ls *.txt
+          ├─ 3: View a note → cat <note_name>.txt
+          ├─ 4: Search notes → grep <term> *.txt
+          ├─ 5: Delete note → rm <note_name>.txt
+          └─ 6: Exit → exit script
+          │
+          ▼
+Tips / Common Errors
+          │
+          ├─ Do not type Bash commands at menu prompt
+          ├─ Use proper spacing in variable assignments (name="Nishant")
+          ├─ Multi-line input → use while loop + END
+          └─ Case block → each option must end with ;;
+          │
+          ▼
+Next Enhancements (optional)
+          │
+          ├─ Append to existing note (update instead of overwrite)
+          └─ Accept Bash commands at menu (advanced)
