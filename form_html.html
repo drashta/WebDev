@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        /* Style fieldset */
+        fieldset {
+            border: 2px solid #4CAF50;  /* green border */
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Style legend */
+        legend {
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 0 10px;
+            color: #4CAF50;
+        }
+
+        /* Adjust spacing for inputs inside fieldset */
+        fieldset input, fieldset select, fieldset textarea {
+            margin-top: 5px;
+        }
+            
+    </style>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form>
+        <!-- Personal Information -->
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter your name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required>
+      
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="10" max="100" placeholder="Enter your age">
+      
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob">
+        </fieldset><br>
+      
+        <!-- Gender & Interests -->
+        <fieldset>
+          <legend>Gender & Interests</legend>
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+      
+          <p>Interests:</p>
+          <input type="checkbox" id="coding" name="interest" value="coding">
+          <label for="coding">Coding</label>
+          <input type="checkbox" id="reading" name="interest" value="reading">
+          <label for="reading">Reading</label>
+          <input type="checkbox" id="sports" name="interest" value="sports">
+          <label for="sports">Sports</label>
+        </fieldset><br>
+      
+        <!-- Additional Information -->
+        <fieldset>
+          <legend>Additional Information</legend>
+          <label for="about">About Yourself:</label>
+          <textarea id="about" name="about" rows="4" cols="40" placeholder="Write something about yourself"></textarea>
+      
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="other">Other</option>
+          </select>
+        </fieldset><br>
+      
+        <input type="submit" value="Register">
+      </form>
+      
+
+</body>
+</html>
