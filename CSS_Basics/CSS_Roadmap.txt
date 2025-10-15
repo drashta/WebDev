@@ -1,0 +1,86 @@
+🎯 CSS Roadmap
+
+Start
+  │
+  ▼
+1️⃣ CSS BASICS
+    → What is CSS (Inline, Internal, External)
+    → Syntax: selector { property: value; }
+    → Colors: name, HEX, RGB, HSL
+    → Units: px, %, em, rem, vh, vw
+    → Font styling (font-family, size, weight)
+    → Backgrounds, Borders, Margins, Padding
+    → Box Model (important!)
+    → Mini Project → Personal Webpage Styling
+  │
+  ▼
+2️⃣ SELECTORS & SPECIFICITY
+    → Element, Class, ID Selectors
+    → Grouping, Descendant, Child, Sibling
+    → Pseudo-classes (:hover, :focus)
+    → Pseudo-elements (::before, ::after)
+    → Specificity & !important
+    → Mini Project → Navbar with hover effects
+  │
+  ▼
+3️⃣ DISPLAY & POSITIONING
+    → display: block / inline / inline-block / none
+    → position: static / relative / absolute / fixed / sticky
+    → z-index, overflow, float, clear
+    → object-fit, object-position
+    → Mini Project → Card layout using positioning
+  │
+  ▼
+4️⃣ FLEXBOX (Modern Layout)
+    → display: flex
+    → flex-direction, flex-wrap
+    → justify-content, align-items
+    → flex-grow, flex-shrink, flex-basis
+    → Centering with flexbox
+    → Mini Project → Responsive navbar/gallery
+  │
+  ▼
+5️⃣ GRID (Optional but Powerful)
+    → display: grid
+    → grid-template-rows / columns / areas
+    → grid-gap
+    → Mini Project → Portfolio grid layout
+  │
+  ▼
+6️⃣ RESPONSIVE DESIGN
+    → @media queries
+    → Mobile-first design
+    → Relative units (%, em, rem, vh, vw)
+    → Hide/show elements on screen sizes
+    → Mini Project → Responsive landing page
+  │
+  ▼
+7️⃣ TRANSITIONS & ANIMATIONS
+    → transition: all 0.3s ease
+    → transform: scale, rotate, translate
+    → @keyframes animations
+    → animation-duration, iteration-count
+    → Mini Project → Animated button / loader
+  │
+  ▼
+8️⃣ PRACTICAL CSS FOR JS INTEGRATION
+    → CSS Variables (--primary-color)
+    → display: none vs visibility: hidden
+    → Adding/removing classes (JS will control)
+    → Hover → JS interaction
+    → Dark mode using variables
+    → Mini Project → Light/Dark mode toggle
+  │
+  ▼
+9️⃣ MINI PROJECTS (FINAL PRACTICE)
+    → Personal portfolio page
+    → Landing page with navbar + hero
+    → Responsive gallery
+    → Login/Signup form styling
+  │
+  ▼
+✅ MOVE TO JAVASCRIPT
+    → Learn DOM manipulation
+    → Handle CSS changes via JS
+    → Build interactive components
+End
